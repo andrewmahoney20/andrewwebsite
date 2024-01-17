@@ -1,0 +1,45 @@
+h1
+{
+    text-align: center;
+    border-bottom-style: solid;
+    border-color: black;
+
+}
+
+.important
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+.superDank
+{
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.captionText
+{
+    color: white;
+    background: rgba(108, 122, 137, 0.55);
+    max-width: 75%;
+    margin: auto;
+    font-weight: bold;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*.carousel-indicators (code thanks to stack-exchange) */
+{
+    filter: invert(100%);
+}
+
+img
+{
+    max-width: 80%;
+    height: auto;
+}
+
+.btn
+{
+    max-width: 90%;
+}
