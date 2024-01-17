@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div>
+            <h1>Hobbies</h1>
+            <!--Menu of links-->
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="memes.html">Memes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="survey.html">Survey</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+        <p class="superDank">These are my hobbies. My mom takes pictures 'cause she says I'm handsome.</p>
+        </div>
+
+        <!--Create a carousel to show multiple pictures aesthetically-->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- Create arrows and indicators for which slide we are on-->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+            </div>
+
+            <!--Build the carousel-->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/workout.png" class="d-block mx-auto" alt="Man bench pressing on broken lawn chair">
+                    <div class="carousel-caption">
+                        <p class="captionText">Pumping iron #riseandgrind</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/car.png" class="d-block mx-auto" alt="Car driven through a building">
+                    <div class="carousel-caption">
+                        <p class="captionText">Uber #sidehustle</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/rage_quit.png" class="d-block mx-auto" alt="Man about to hit a TV with a chair">
+                    <div class="carousel-caption">
+                        <p class="captionText">Gaming #gg</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="images/tidepod.png" class="d-block mx-auto" alt="Man with Tide Pod on a spoon">
+                    <div class="carousel-caption">
+                        <p class="captionText"> Cooking #healthylifestyle</p>
+                    </div>
+                </div>
+
+
+                <!--Build the left and right arrows-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+            </div>
+
+        </div>
+    </body>
+</html>
